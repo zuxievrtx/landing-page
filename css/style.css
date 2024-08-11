@@ -179,3 +179,19 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+
+@media (max-width: 768px) {
+  .hero-content,
+  .info-grid,
+  .cta-content {
+    flex-direction: column;
+  }
+  .hero-text,
+  .hero-image {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
